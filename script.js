@@ -44,7 +44,7 @@ function generatePassword() {
 
   // loop getting random characters  FOR LOOP KOJIM NASUMICNO IZABIREMO ZNAKOVE
   for (let i = 0; i < (parseInt(length) - minimumCount); i++) {
-    var randomnumber = Math.floor(Math.random() * 4);
+    var randomnumber = Math.floor(Math.random() * values.length);
 
     randomPasswordGenerated += values[randomnumber];
 
