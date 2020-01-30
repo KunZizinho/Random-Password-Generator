@@ -21,6 +21,11 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
 
   var length = Number(prompt("How many characters would you like your password to be?"));
+  
+  if (length < 8 || length > 128) {
+     alert("Chose a number between 8 and 128.");
+     return
+  };
 
   var numbers = confirm("Do you want numbers in your password");
 
