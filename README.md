@@ -28,3 +28,4 @@ Logic :
         -we are gonna need a function that Loops through criteria and checks which are selected
         
      -then display password on the page
+         we are gonna need the function that prints our generated password
