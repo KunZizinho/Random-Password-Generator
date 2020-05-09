@@ -21,5 +21,10 @@ Logic :
        
     -if we dont select any criteria  then alert us to use at least one criteria to enable password generation
     -when criteria is selected we should randomly pick a char from that set
+         - we can use IF statement to condition if  all of the criteria is false to Alert us that at least one is needed
+         
     -when the password is generated 
-    -then display password on the page
+        -we are gonna need a function that randomly picks a char
+        -we are gonna need a function that Loops through criteria and checks which are selected
+        
+     -then display password on the page
