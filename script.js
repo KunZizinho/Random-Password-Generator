@@ -39,6 +39,10 @@ function generatePasswordOptions() {
   if (length < 8 || length > 128) {
     alert("Chose a number between 8 and 128.");
     return generatePasswordOptions();
+
+  } else if(length !== NaN) {
+    return generatePasswordOptions();
+
   } else {
     console.log("here");
     var numbers = confirm("Do you want numbers in your password");
@@ -50,6 +54,7 @@ function generatePasswordOptions() {
   
   
     var special = confirm("Do you want special characters in your password?");
+
   };
 
 
