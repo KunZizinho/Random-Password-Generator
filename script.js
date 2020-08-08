@@ -41,10 +41,12 @@ function generatePasswordOptions() {
     return generatePasswordOptions();
 
   } else if(length !== NaN) {
+    alert("Chose a number between 8 and 128.");
     return generatePasswordOptions();
 
   } else {
     console.log("here");
+    
     var numbers = confirm("Do you want numbers in your password");
   
     var lowerCases = confirm("Do you want lowercases in your password?");
